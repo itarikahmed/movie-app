@@ -4,7 +4,7 @@ import axios from "axios";
 const API_URL = `https://www.omdbapi.com/?&apikey=4dbab240&`;
 
 const useFetch = (query) => {
-  const [myData, setMyData] = useState(null);
+  const [myData, setMyData] = useState([]);
   const [isError, setIsError] = useState('');
   const [isLoading, setIsLoading] = useState(true);
 

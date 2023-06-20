@@ -24,7 +24,7 @@ function RootLayout() {
             <NavLink className="text-primary text-xl font-semibold" to="/">
               Home
             </NavLink>
-            <NavLink className="text-primary text-xl font-semibold" to="movies">
+            <NavLink className="text-primary text-xl font-semibold" to="movie">
               Movies
             </NavLink>
           </div>
