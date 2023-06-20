@@ -10,12 +10,13 @@ const MovieDetails = () => {
     <div className="text-center justify-center">Loading...</div>)
   }
     return (
-        <div className=" flex justify-center items-center h-full mt-10">
-          <div className="flex t w-1/2 h- h-96 border-2 border-gray-200 rounded-lg space-x-10 p-10 shadow-xl">
+        <div className=" flex justify-center items-center mt-28 h-auto">
+          <div className="flex w-1/2 h-96 border-2 border-gray-200 rounded-lg space-x-10 p-10 shadow-xl">
             <div>
             <img src={myData.Poster} alt="" className=" w-52 h-72" />
           </div>
           <div className="text-black space-y-2">
+            <p>{id}</p>
             <p className="font-bold text-xl m-1"> Title:{myData.Title}</p>
             <p className="font-semibold text-xl m-1" >Released date:{myData.Released}</p>
             <p className="font-semibold text-xl " > Genre:{myData.Genre}</p>

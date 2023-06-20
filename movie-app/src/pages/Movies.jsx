@@ -9,7 +9,7 @@ function Movies() {
   <div className="text-center justify-center">Loading...</div>)
 }
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto mt-10">
       <div className="grid grid-cols-4 justify-items-center ">
         {myData?myData.map((data) => {
           const { imdbID, Title, Poster } = data;

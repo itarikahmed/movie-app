@@ -1,16 +1,16 @@
 import React from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
-import Footer from "../components/Footer";
+
 
 function RootLayout() {
   return (
     <>
       <header>
-        <nav className="flex justify-between items-center p-2 max-w-7xl mx-auto mt-10">
+        <nav className="flex justify-between items-center p-2 max-w-7xl mx-auto mt-10 ">
           <div>
             <Link
               className="flex items-center gap-3 text-3xl font-extrabold text-[#0C276A]"
-              to="index"
+              to="/"
             >
               <img
                 className="w-14 h-14 rounded-full"
@@ -24,7 +24,7 @@ function RootLayout() {
             <NavLink className="text-primary text-xl font-semibold" to="/">
               Home
             </NavLink>
-            <NavLink className="text-primary text-xl font-semibold" to="Movies">
+            <NavLink className="text-primary text-xl font-semibold" to="movies">
               Movies
             </NavLink>
           </div>
