@@ -1,7 +1,4 @@
 {
-	// Theme
-	// "workbench.colorTheme": "Dracula",
-
 	"typescript.suggestionActions.enabled": false,
 	"javascript.suggestionActions.enabled": false,
 
@@ -18,7 +15,6 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "explicit"
 	},
-	"eslint.alwaysShowStatus": true,
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
